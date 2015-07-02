@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 use SebastianBerc\Repositories\Repository;
 
 /**
- * Class DispachesGrids
+ * Class DispatchesGrids
  *
  * @author  Sebastian Berć <sebastian.berc@gmail.com>
  * @package SebastianBerc\GridDispatcher\Traits
  */
-trait DispachesGrids
+trait DispatchesGrids
 {
     /**
      * Dispatch a job to create data for grid.

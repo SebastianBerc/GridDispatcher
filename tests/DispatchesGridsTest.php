@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
 use SebastianBerc\GridDispatcher\Jobs\ConvertRequest;
 use SebastianBerc\GridDispatcher\Jobs\CreateGridForRequest;
-use SebastianBerc\GridDispatcher\Traits\DispachesGrids;
+use SebastianBerc\GridDispatcher\Traits\DispatchesGrids;
 use Mockery as m;
 use SebastianBerc\Repositories\Repository;
 
@@ -72,5 +72,5 @@ class DispatchesGridsTest extends TestCase
 
 class ControllerStub
 {
-    use DispachesGrids;
+    use DispatchesGrids;
 }
