@@ -17,13 +17,13 @@
     ],
     "require": {
         "php" : ">=5.5.9",
-        "sebastian-berc/repositories": "~1.0",
-        "laravel/framework": "~5.1"
+        "sebastian-berc/repositories": "dev-master",
+        "laravel/framework": "~5.0|~5.1"
     },
     "require-dev": {
-        "phpunit/phpunit" : "4.*",
         "scrutinizer/ocular": "~1.1",
-        "mockery/mockery": "^1.0@dev"
+        "phpunit/phpunit" : "4.*",
+        "mockery/mockery": "^0.9.4"
     },
     "autoload": {
         "psr-4": {
@@ -42,6 +42,5 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
